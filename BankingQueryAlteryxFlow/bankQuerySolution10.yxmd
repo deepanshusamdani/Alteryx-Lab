@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CUSTOMER_PERSONAL_INFO.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CUSTOMER_ID" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="CUSTOMER_NAME" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="DATE_OF_BIRTH" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="GUARDIAN_NAME" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="CONTACT_NO" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="MAIL_ID" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="GENDER" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="MARTIAL_STATUS" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="IDENTIFICATION_DOC_TYPE" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="ID_DOC_NO" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+            <Field name="CITIZENSHIP" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\CUSTOMER_PERSONAL_INFO.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>False</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ACCOUNT_INFO.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="Field_2" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="Field_3" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="Field_4" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="Field_5" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="Field_6" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="Field_8" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="114" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Skip</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_12416_c11bdd3b897c4c179382cb89abbfd5a8_\Engine_10980_033628667a034f66a79e9915b674416b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="18" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="8" />
+          <Fields>
+            <Field name="NewColumnName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>ACCOUNT_NO</c>
+            </r>
+            <r>
+              <c>CUSTOMER_ID</c>
+            </r>
+            <r>
+              <c>ACCOUNT_TYPE</c>
+            </r>
+            <r>
+              <c>REGISTRATION_DATE</c>
+            </r>
+            <r>
+              <c>ACTIVATION_DATE</c>
+            </r>
+            <r>
+              <c>IFSC_CODE</c>
+            </r>
+            <r>
+              <c><![CDATA[INTEREST_AMT ]]></c>
+            </r>
+            <r>
+              <c>INITIAL_DEPOSIT</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="318" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>RightInputRows</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Field_1" />
+            <Field name="Field_2" />
+            <Field name="Field_3" />
+            <Field name="Field_4" />
+            <Field name="Field_5" />
+            <Field name="Field_6" />
+            <Field name="Field_7" />
+            <Field name="Field_8" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <NamesFromRows>
+            <OnError>Warn</OnError>
+            <InputMode>Positional</InputMode>
+            <NewName>NewColumnName</NewName>
+          </NamesFromRows>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ACCOUNT_NO" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="CUSTOMER_ID" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="ACCOUNT_TYPE" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="REGISTRATION_DATE" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="ACTIVATION_DATE" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="IFSC_CODE" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="INTEREST_AMT " size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+            <Field name="INITIAL_DEPOSIT" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\ACCOUNT_INFO.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="474" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CUSTOMER_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CUSTOMER_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_CUSTOMER_ID" selected="True" rename="Right_CUSTOMER_ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CUSTOMER_NAME" selected="False" />
+            <SelectField field="DATE_OF_BIRTH" selected="False" />
+            <SelectField field="GUARDIAN_NAME" selected="False" />
+            <SelectField field="ADDRESS" selected="False" />
+            <SelectField field="CONTACT_NO" selected="False" />
+            <SelectField field="MAIL_ID" selected="False" />
+            <SelectField field="GENDER" selected="False" />
+            <SelectField field="MARTIAL_STATUS" selected="False" />
+            <SelectField field="IDENTIFICATION_DOC_TYPE" selected="False" />
+            <SelectField field="ID_DOC_NO" selected="False" />
+            <SelectField field="CITIZENSHIP" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ACCOUNT_TYPE" selected="False" />
+            <SelectField field="REGISTRATION_DATE" selected="False" />
+            <SelectField field="ACTIVATION_DATE" selected="False" />
+            <SelectField field="IFSC_CODE" selected="False" />
+            <SelectField field="INTEREST_AMT " selected="True" type="Int32" size="4" />
+            <SelectField field="INITIAL_DEPOSIT" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Right_CUSTOMER_ID" selected="False" />
+            <SelectField field="INTEREST_AMT " selected="True" type="V_String" size="11" />
+            <SelectField field="REGISTRATION_DATE" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="678" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="INTEREST_AMT " order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>INTEREST_AMT  - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="774" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&#xA;&quot;$&quot; + ToString([INTEREST_AMT ],1)" field="INTEREST_AMT " size="11" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[INTEREST_AMT  = 
+"$" + ToString([INTEREST_AMT ],1)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_12416_c11bdd3b897c4c179382cb89abbfd5a8_\Engine_10980_0525991fd2824dcd81c7a9455056c52c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Round([INTEREST_AMT ], 1)" field="INTEREST_AMT " size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[INTEREST_AMT  = Round([INTEREST_AMT ], 1)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_12416_c11bdd3b897c4c179382cb89abbfd5a8_\Engine_10980_1df20b20775a448fa0f6b5c29d153482_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>bankQuerySolution10</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

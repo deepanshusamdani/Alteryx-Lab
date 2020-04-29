@@ -1,0 +1,1340 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="18" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="150" />
+          <Fields>
+            <Field name="A" />
+            <Field name="B" />
+            <Field name="C" />
+            <Field name="D" />
+            <Field name="Output" />
+          </Fields>
+          <Data>
+            <r>
+              <c>5.1</c>
+              <c>3.5</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.9</c>
+              <c>3</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.7</c>
+              <c>3.2</c>
+              <c>1.3</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.6</c>
+              <c>3.1</c>
+              <c>1.5</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>3.6</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.4</c>
+              <c>5.4</c>
+              <c>1.7</c>
+              <c>0.4</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.6</c>
+              <c>4.6</c>
+              <c>1.4</c>
+              <c>0.3</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>5</c>
+              <c>1.5</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.4</c>
+              <c>4.4</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.9</c>
+              <c>3.1</c>
+              <c>1.5</c>
+              <c>0.1</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.4</c>
+              <c>3.7</c>
+              <c>1.5</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.8</c>
+              <c>3.4</c>
+              <c>1.6</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.8</c>
+              <c>3</c>
+              <c>1.4</c>
+              <c>0.1</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.3</c>
+              <c>3</c>
+              <c>1.1</c>
+              <c>0.1</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.8</c>
+              <c>4</c>
+              <c>1.2</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>4.4</c>
+              <c>1.5</c>
+              <c>0.4</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.4</c>
+              <c>3.9</c>
+              <c>1.3</c>
+              <c>0.4</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>3.5</c>
+              <c>1.4</c>
+              <c>0.3</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>3.8</c>
+              <c>1.7</c>
+              <c>0.3</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>3.8</c>
+              <c>1.5</c>
+              <c>0.3</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.4</c>
+              <c>3.4</c>
+              <c>1.7</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>3.7</c>
+              <c>1.5</c>
+              <c>0.4</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.6</c>
+              <c>3.6</c>
+              <c>1</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>3.3</c>
+              <c>1.7</c>
+              <c>0.5</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.8</c>
+              <c>3.4</c>
+              <c>1.9</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>3</c>
+              <c>1.6</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>3.4</c>
+              <c>1.6</c>
+              <c>0.4</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.2</c>
+              <c>3.5</c>
+              <c>1.5</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.2</c>
+              <c>3.4</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.7</c>
+              <c>3.2</c>
+              <c>1.6</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.8</c>
+              <c>3.1</c>
+              <c>1.6</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.4</c>
+              <c>3.4</c>
+              <c>1.5</c>
+              <c>0.4</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.2</c>
+              <c>4.1</c>
+              <c>1.5</c>
+              <c>0.1</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.5</c>
+              <c>4.2</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.9</c>
+              <c>3.1</c>
+              <c>1.5</c>
+              <c>0.1</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>3.2</c>
+              <c>1.2</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.5</c>
+              <c>3.5</c>
+              <c>1.3</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.9</c>
+              <c>3.1</c>
+              <c>1.5</c>
+              <c>0.1</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.4</c>
+              <c>3</c>
+              <c>1.3</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>3.4</c>
+              <c>1.5</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>3.5</c>
+              <c>1.3</c>
+              <c>0.3</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.5</c>
+              <c>2.3</c>
+              <c>1.3</c>
+              <c>0.3</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.4</c>
+              <c>3.2</c>
+              <c>1.3</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>3.5</c>
+              <c>1.6</c>
+              <c>0.6</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>3.8</c>
+              <c>1.9</c>
+              <c>0.4</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.8</c>
+              <c>3</c>
+              <c>1.4</c>
+              <c>0.3</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>3.8</c>
+              <c>1.6</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>4.6</c>
+              <c>3.2</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5.3</c>
+              <c>3.7</c>
+              <c>1.5</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>3.3</c>
+              <c>1.4</c>
+              <c>0.2</c>
+              <c>Iris-setosa</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>7</c>
+              <c>4.7</c>
+              <c>1.4</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.4</c>
+              <c>3.2</c>
+              <c>4.5</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.9</c>
+              <c>3.1</c>
+              <c>4.9</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.5</c>
+              <c>2.3</c>
+              <c>4</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.5</c>
+              <c>2.8</c>
+              <c>4.6</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>2.8</c>
+              <c>4.5</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>3.3</c>
+              <c>4.7</c>
+              <c>1.6</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>4.9</c>
+              <c>2.4</c>
+              <c>3.3</c>
+              <c>1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.6</c>
+              <c>2.9</c>
+              <c>4.6</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.2</c>
+              <c>2.7</c>
+              <c>3.9</c>
+              <c>1.4</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>2</c>
+              <c>3.5</c>
+              <c>1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.9</c>
+              <c>3</c>
+              <c>4.2</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>2.2</c>
+              <c>4</c>
+              <c>1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.1</c>
+              <c>2.9</c>
+              <c>4.7</c>
+              <c>1.4</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.6</c>
+              <c>2.9</c>
+              <c>3.6</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>3.1</c>
+              <c>4.4</c>
+              <c>1.4</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.6</c>
+              <c>3</c>
+              <c>4.5</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.8</c>
+              <c>2.7</c>
+              <c>4.1</c>
+              <c>1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.2</c>
+              <c>2.2</c>
+              <c>4.5</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.6</c>
+              <c>2.5</c>
+              <c>3.9</c>
+              <c>1.1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.9</c>
+              <c>3.2</c>
+              <c>4.8</c>
+              <c>1.8</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.1</c>
+              <c>2.8</c>
+              <c>4</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>2.5</c>
+              <c>4.9</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.1</c>
+              <c>2.8</c>
+              <c>4.7</c>
+              <c>1.2</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.4</c>
+              <c>2.9</c>
+              <c>4.3</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.6</c>
+              <c>3</c>
+              <c>4.4</c>
+              <c>1.4</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.8</c>
+              <c>2.8</c>
+              <c>4.8</c>
+              <c>1.4</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>3</c>
+              <c>5</c>
+              <c>1.7</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>2.9</c>
+              <c>4.5</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>2.6</c>
+              <c>3.5</c>
+              <c>1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.5</c>
+              <c>2.4</c>
+              <c>3.8</c>
+              <c>1.1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.5</c>
+              <c>2.4</c>
+              <c>3.7</c>
+              <c>1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.8</c>
+              <c>2.7</c>
+              <c>3.9</c>
+              <c>1.2</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>2.7</c>
+              <c>5.1</c>
+              <c>1.6</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.4</c>
+              <c>3</c>
+              <c>4.5</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>3.4</c>
+              <c>4.5</c>
+              <c>1.6</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>3.1</c>
+              <c>4.7</c>
+              <c>1.5</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>2.3</c>
+              <c>4.4</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.6</c>
+              <c>3</c>
+              <c>4.1</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.5</c>
+              <c>2.5</c>
+              <c>4</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.5</c>
+              <c>2.6</c>
+              <c>4.4</c>
+              <c>1.2</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.1</c>
+              <c>3</c>
+              <c>4.6</c>
+              <c>1.4</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.8</c>
+              <c>2.6</c>
+              <c>4</c>
+              <c>1.2</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>2.3</c>
+              <c>3.3</c>
+              <c>1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.6</c>
+              <c>2.7</c>
+              <c>4.2</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>3</c>
+              <c>4.2</c>
+              <c>1.2</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>2.9</c>
+              <c>4.2</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.2</c>
+              <c>2.9</c>
+              <c>4.3</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.1</c>
+              <c>2.5</c>
+              <c>3</c>
+              <c>1.1</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>2.8</c>
+              <c>4.1</c>
+              <c>1.3</c>
+              <c>Iris-versicolor</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>3.3</c>
+              <c>6</c>
+              <c>2.5</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>5.8</c>
+              <c>2.7</c>
+              <c>5.1</c>
+              <c>1.9</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.1</c>
+              <c>3</c>
+              <c>5.9</c>
+              <c>2.1</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>2.9</c>
+              <c>5.6</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.5</c>
+              <c>3</c>
+              <c>5.8</c>
+              <c>2.2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.6</c>
+              <c>3</c>
+              <c>6.6</c>
+              <c>2.1</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>4.9</c>
+              <c>2.5</c>
+              <c>4.5</c>
+              <c>1.7</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.3</c>
+              <c>2.9</c>
+              <c>6.3</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>2.5</c>
+              <c>5.8</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.2</c>
+              <c>3.6</c>
+              <c>6.1</c>
+              <c>2.5</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.5</c>
+              <c>3.2</c>
+              <c>5.1</c>
+              <c>2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.4</c>
+              <c>2.7</c>
+              <c>5.3</c>
+              <c>1.9</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.8</c>
+              <c>3</c>
+              <c>5.5</c>
+              <c>2.1</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>5.7</c>
+              <c>2.5</c>
+              <c>5</c>
+              <c>2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>5.8</c>
+              <c>2.8</c>
+              <c>5.1</c>
+              <c>2.4</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.4</c>
+              <c>3.2</c>
+              <c>5.3</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.5</c>
+              <c>3</c>
+              <c>5.5</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.7</c>
+              <c>3.8</c>
+              <c>6.7</c>
+              <c>2.2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.7</c>
+              <c>2.6</c>
+              <c>6.9</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>2.2</c>
+              <c>5</c>
+              <c>1.5</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.9</c>
+              <c>3.2</c>
+              <c>5.7</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>5.6</c>
+              <c>2.8</c>
+              <c>4.9</c>
+              <c>2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.7</c>
+              <c>2.8</c>
+              <c>6.7</c>
+              <c>2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>2.7</c>
+              <c>4.9</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>3.3</c>
+              <c>5.7</c>
+              <c>2.1</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.2</c>
+              <c>3.2</c>
+              <c>6</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.2</c>
+              <c>2.8</c>
+              <c>4.8</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.1</c>
+              <c>3</c>
+              <c>4.9</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.4</c>
+              <c>2.8</c>
+              <c>5.6</c>
+              <c>2.1</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.2</c>
+              <c>3</c>
+              <c>5.8</c>
+              <c>1.6</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.4</c>
+              <c>2.8</c>
+              <c>6.1</c>
+              <c>1.9</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.9</c>
+              <c>3.8</c>
+              <c>6.4</c>
+              <c>2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.4</c>
+              <c>2.8</c>
+              <c>5.6</c>
+              <c>2.2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>2.8</c>
+              <c>5.1</c>
+              <c>1.5</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.1</c>
+              <c>2.6</c>
+              <c>5.6</c>
+              <c>1.4</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>7.7</c>
+              <c>3</c>
+              <c>6.1</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>3.4</c>
+              <c>5.6</c>
+              <c>2.4</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.4</c>
+              <c>3.1</c>
+              <c>5.5</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>3</c>
+              <c>4.8</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.9</c>
+              <c>3.1</c>
+              <c>5.4</c>
+              <c>2.1</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>3.1</c>
+              <c>5.6</c>
+              <c>2.4</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.9</c>
+              <c>3.1</c>
+              <c>5.1</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>5.8</c>
+              <c>2.7</c>
+              <c>5.1</c>
+              <c>1.9</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.8</c>
+              <c>3.2</c>
+              <c>5.9</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>3.3</c>
+              <c>5.7</c>
+              <c>2.5</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.7</c>
+              <c>3</c>
+              <c>5.2</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.3</c>
+              <c>2.5</c>
+              <c>5</c>
+              <c>1.9</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.5</c>
+              <c>3</c>
+              <c>5.2</c>
+              <c>2</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>6.2</c>
+              <c>3.4</c>
+              <c>5.4</c>
+              <c>2.3</c>
+              <c>Iris-virginica</c>
+            </r>
+            <r>
+              <c>5.9</c>
+              <c>3</c>
+              <c>5.1</c>
+              <c>1.8</c>
+              <c>Iris-virginica</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="6" width="144" height="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>apply sin transformation 
+  over the column A</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Green" />
+          <FillColor name="Aqua" />
+          <Shape shape="1" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_14456_297247e7b27f43b5af31b140088ad930_\Engine_7912_5b22b0662545458c9d1dc3403bb2341f_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="570" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">34</Value>
+          <Value name="validation pct">33</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_14456_297247e7b27f43b5af31b140088ad930_\Engine_7912_cfe52c6f1c7a453ead8e7dc54b6c93d2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="678" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"A"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ASIN(A)" field="A" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[A = ASIN(A)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="366" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>B</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-03-11 02:58:36</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>4.7</Operand>
+              <StartDate>2020-03-11 02:58:36</StartDate>
+              <EndDate>2020-03-11 02:58:36</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[B] &gt; 4.7</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Holdout" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>BasicFunFlow2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

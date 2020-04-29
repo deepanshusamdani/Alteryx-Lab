@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>kc_house_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="date" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="bedrooms" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="bathrooms" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="sqft_living" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="sqft_lot" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="floors" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="waterfront" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="view" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="condition" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="sqft_above" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="sqft_basement" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="yr_built" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="yr_renovated" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="zipcode" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="lat" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="long" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="sqft_living15" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+            <Field name="sqft_lot15" size="254" source="File: C:\Users\HP\Desktop\ForAlteryxDB\kc_house_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_4380_0777f13bc9ef43bc90ad66e217df18d1_\Engine_18340_abbfd43e1c8647fb8634c679a04b614d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="366" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Max_bedrooms" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="bedrooms" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="258" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="bedrooms" action="Max" rename="Max_bedrooms" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="258" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="bedrooms" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>bedrooms - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_4380_0777f13bc9ef43bc90ad66e217df18d1_\Engine_18340_3c62d5f103ae4930886b51bc47a05626_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="534" y="18" width="276.7022" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>find Minimum &amp; Maximum of Field</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="558" y="66" width="228" height="72" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[# Minimum and Maximum of Filed :
+-: use summarize tool with join function.
+-: then apply join over a column.
+-: Browse the output. 
+]]></Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor r="64" g="0" b="128" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>FindMinimun&amp;Maximum</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
